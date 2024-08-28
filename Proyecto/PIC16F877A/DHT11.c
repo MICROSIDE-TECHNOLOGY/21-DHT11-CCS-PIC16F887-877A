@@ -7,8 +7,9 @@ Driver Version    :  1.0
 ************************************************************************************************/
 /*
 ---------------------------------------------------------------------------
-Esta práctica consiste en imprimir un mensaje, a través de una
-pantalla LCD
+En esta práctica se implementa la lectura de un sensor de temperatura y 
+humedad digital DHT11, los valores obtenidos se visualizan a través de un 
+display LCD I2C.
 ---------------------------------------------------------------------------
 */
 
