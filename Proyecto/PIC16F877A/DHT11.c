@@ -39,14 +39,14 @@ void main()
 
     if ( dht11_init() != 0 ) {       // Inicializa el DHT11
         lcd_i2c_write_byte( "ERROR" );
-        while ( 1 ) {
+        while ( TRUE ) {
         }
     }
 
     lcd_i2c_write_byte( "OK" );
     delay_ms( 1000 );
 
-    while ( 1 ) {
+    while ( TRUE ) {
         delay_ms( 2000 );
         // Lee el sensor DHT11
         dht11_stat = dht11_read( &temperature, &humidity );

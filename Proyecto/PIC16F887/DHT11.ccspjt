@@ -1,24 +1,41 @@
 [PROJECT]
-Target=LCD.hex
+Target=DHT11.hex
 Processor_Text=PIC16F887
-CCSVersion=5.076
+CCSVersion=5.115
 Compiler=PCM
 [Target Data]
-FileList=LCD.c
-[LCD.c]
+FileList=DHT11.c
+[DHT11.c]
 Type=4
 [mru-list]
-1=LCD.c
-[Units]
-Count=1
-1=LCD (main)
+1=DHT11.c
 
 [defines]
-buildcount=1
+buildcount=2
 
 [ProjectLog]
-Days=1
-D1=24-02-2022
-D1_L=2
-D1_L1=[53043]Started Editing.
-D1_L2=[53062]Project Closed.
+Days=2
+D1=28-08-2024
+D1_L=1
+D1_L1=[84583]Project Closed.
+D2=01-09-2024
+D2_L=4
+D2_L1=[50999]Project Opened.
+D2_L2=[51827]Started Editing.
+D2_L3=[52247]Stopped Editing.
+TotalEdit=3
+TotalDebug=0
+D2_E=3
+D2_D=0
+D2_L4=[53260]Project Closed.
+
+[fileformats]
+forcecoff=0
+
+[Opened Files]
+1=DHT11.c
+t1=1
+Count=1
+[Units]
+Count=1
+1=DHT11 (main)
